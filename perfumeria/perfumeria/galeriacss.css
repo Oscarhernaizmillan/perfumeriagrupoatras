@@ -1,0 +1,97 @@
+ body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: #f3f3f3;
+    }
+
+    header {
+      background: #c79dd7;
+      color: white;
+      padding: 20px;
+      text-align: center;
+      font-size: 28px;
+      font-weight: bold;
+    }
+    nav {
+        background: #f0e6f0;
+        padding: 10px;
+        display: flex;
+        gap: 15px;
+        justify-content: center;
+    }
+    nav a {
+        text-decoration: none;
+        color: #333;
+        font-weight: bold;
+    }
+
+    h2 {
+      text-align: center;
+      margin-top: 30px;
+    }
+
+    .catalogo {
+      width: 90%;
+      max-width: 1100px;
+      margin: 30px auto;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 25px;
+    }
+
+    .producto {
+      background: white;
+      padding: 15px;
+      border-radius: 12px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      text-align: center;
+      transition: transform .2s ease;
+    }
+
+    .producto:hover {
+      transform: scale(1.04);
+    }
+
+    .producto img {
+      width: 100%;
+      height: 250px;
+      object-fit: cover;
+      border-radius: 10px;
+    }
+
+    .producto h3 {
+      margin: 10px 0 5px;
+    }
+
+    .producto p {
+      color: #444;
+      font-size: 15px;
+    }
+
+    .precio {
+      font-size: 18px;
+      font-weight: bold;
+      color: #b06cc7;
+      margin: 8px 0;
+    }
+
+    button {
+      background: #c79dd7;
+      border: none;
+      padding: 10px 15px;
+      border-radius: 8px;
+      color: white;
+      cursor: pointer;
+      font-size: 16px;
+    }
+
+    button:hover {
+      background: #b274d0;
+    }
+
+    footer {
+      margin-top: 40px;
+      background: #ddd;
+      padding: 20px;
+      text-align: center;
+    }
